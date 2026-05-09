@@ -89,8 +89,8 @@
     max-width: 430px;
     background: var(--card);
     border-radius: 24px;
-    margin: 16px 20px 0;
-    padding: 32px 24px 28px;
+    margin: 8px 20px 0;
+    padding: 16px 20px 16px;
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
@@ -245,7 +245,7 @@
   }
 
   .numpad-btn {
-    aspect-ratio: 1.55;
+    height: 52px;
     border: none;
     border-radius: 14px;
     background: var(--card);
@@ -438,15 +438,10 @@
   }
 
   /* Responsive */
-  @media (max-height: 700px) {
+  @media (max-height: 900px) {
     .problem-display { font-size: 44px; margin-bottom: 16px; }
     .answer-area { font-size: 40px; min-height: 52px; }
-    .game-card { padding: 24px 20px 20px; }
     .numpad-btn { font-size: 24px; }
-  }
-
-  @media (min-height: 900px) {
-    .numpad-btn { aspect-ratio: 1.4; }
   }
 </style>
 </head>
